@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-HELM_VERSION=3.2.4
+HELM_VERSION=3.5.2
 
 # Faster than VirtualBox's DNS Server
 sed -i 's/127.0.0.53/1.1.1.1/' /etc/resolv.conf
